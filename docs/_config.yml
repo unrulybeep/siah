@@ -4,7 +4,6 @@
 #
 # Site settings
 # These are used to personalize your new site.
-
 title: Your awesome title
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -20,6 +19,10 @@ github_username:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-glossary_tooltip
+  - jekyll_bootstrap5_tabs
+  - jekyll-email-protect
+  - slim
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -29,7 +32,7 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
- exclude:
+exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -41,3 +44,4 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
   - .gitignore
+  - .DS_Store
