@@ -22,7 +22,6 @@ group :jekyll_plugins do
   gem "jekyll-glossary_tooltip"
   gem "jekyll_bootstrap5_tabs", "~> 1.1.2"
   gem "jekyll-email-protect"
-  gem "jekyll-font-awesome-sass"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

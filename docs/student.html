@@ -5,6 +5,8 @@ layout: default
   <h1>Student</h1>
 [Student Profiles on URP SIAH page](https://www.washington.edu/undergradresearch/siah/archive/2018-siah/#students)
 
-{% for person in site.data.people %}
-  {% include profile.html %}
-{% endfor %}
+<div class="flex-box">
+  {% for person in site.data.people %}
+    {% include profile.html %}
+  {% endfor %}
+</div>

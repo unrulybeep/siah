@@ -2,5 +2,21 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 $fa-font-path: "fonts/font-awesome/";
-@import "minima",
-        "font-awesome";
+@import
+  "minima",
+  "font-awesome",
+  "profile"
+;
+
+/* Flex box for student profile page
+ *
+ *
+ *
+*/
+
+.flex-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-around;
+}
