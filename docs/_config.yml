@@ -22,7 +22,9 @@ plugins:
   - jekyll-glossary_tooltip
   - jekyll_bootstrap5_tabs
   - jekyll-email-protect
-  - slim
+  - jekyll-font-awesome-sass
+font-awesome:
+  assets: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
