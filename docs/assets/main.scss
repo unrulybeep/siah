@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'Encode Sans Normal';
-    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-Thin.ttf') format('truetype');
+    src: url('fonts/Encode Sans Normal/EncodeSansNormal-100-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: 'Encode Sans Normal';
-    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-SemiBold.ttf') format('truetype');
+    src: url('fonts/Encode Sans Normal/EncodeSansNormal-600-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -28,7 +28,7 @@
 
 @font-face {
     font-family: 'Encode Sans Normal';
-    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-ExtraLight.ttf') format('truetype');
+    src: url('fonts/Encode Sans Normal/EncodeSansNormal-200-ExtraLight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -36,7 +36,7 @@
 
 @font-face {
     font-family: 'Encode Sans Normal';
-    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-Light.ttf') format('truetype');
+    src: url('fonts/Encode Sans Normal/EncodeSansNormal-300-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -44,7 +44,7 @@
 
 @font-face {
     font-family: 'Encode Sans Normal';
-    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-Medium.ttf') format('truetype');
+    src: url('fonts/Encode Sans Normal/EncodeSansNormal-500-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -52,39 +52,48 @@
 
 @font-face {
     font-family: 'Encode Sans Normal';
-    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-ExtraBold.ttf') format('truetype');
-    font-weight: bold;
+    src: url('fonts/Encode Sans Normal/EncodeSansNormal-800-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Encode Sans Normal';
-    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-Bold.ttf') format('truetype');
-    font-weight: bold;
+    src: url('fonts/Encode Sans Normal/EncodeSansNormal-700-Bold.ttf') format('truetype');
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Encode Sans Normal';
-    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-Black.ttf') format('truetype');
+    src: url('fonts/Encode Sans Normal/EncodeSansNormal-900-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
 
-@import
-  "minima",
-  "profile",
-  url("//fonts.googleapis.com/css?family=Open+Sans")
-;
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
 
-/* Flex box for student profile page
- *
- *
- *
-*/
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+//End minima
+
+
+// Flex box for student profile page
 
 .flex-box {
   display: flex;
