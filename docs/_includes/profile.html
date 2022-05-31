@@ -3,7 +3,11 @@
   <div class="profile-bg"></div>
   <div class="profile-bg profile-bg2"></div>
   <figure>
-  <img src="{{ person.profile-img }}">
+    {% if person.profile-img %}
+    <img src="{{ person.profile-img }}">
+    {% else %}
+    <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/55758/random-user-31.jpg">
+    {% endif %}
   </figure>
   <div class="text-container">
     <div>

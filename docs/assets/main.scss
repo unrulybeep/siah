@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Encode Sans Normal';
-    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-Regular.ttf') format('truetype');
+    src: url('fonts/Encode Sans Normal/EncodeSansNormal-400-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -101,3 +101,13 @@
   justify-content: space-between;
   align-content: space-around;
 }
+
+// Import partials.
+@import
+  "minima",
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting",
+  "profile",
+  url("//fonts.googleapis.com/css?family=Open+Sans")
+;

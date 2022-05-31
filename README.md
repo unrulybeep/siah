@@ -45,6 +45,7 @@
 * [Email Protect](https://github.com/vwochnik/jekyll-email-protect)
 * [Bootstrap5 Tabs](https://github.com/mslinn/jekyll_bootstrap5_tabs)
 * [Jekyll nofollow](https://github.com/techiediaries/jekyll-autonofollow)
+* [Font Awesome CDN](https://fontawesome.com)
 * See Also: [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-plugins)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
