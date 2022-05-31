@@ -4,7 +4,7 @@
 #
 # Site settings
 # These are used to personalize your new site.
-title: Seattle’s Upside Down: Unearthing the City’s Deeper Histories
+title: "Seattle’s Upside Down: Unearthing the City’s Deeper Histories"
 email: ellean@uw.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -22,8 +22,6 @@ plugins:
   - jekyll-glossary_tooltip
   - jekyll_bootstrap5_tabs
   - jekyll-email-protect
-font-awesome:
-  assets: true
 nofollow:
   enable: true
 

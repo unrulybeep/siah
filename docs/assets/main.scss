@@ -2,14 +2,82 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@fontface {
-  font-family: "Encode Sans";
-  src: url("{{ assets/fonts/Encode Sans Normal/EncodeSansNormal-400-Regular.ttf | relative_url }}");
+@font-face {
+    font-family: 'Encode Sans Normal';
+    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'Encode Sans Normal';
+    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Normal';
+    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Normal';
+    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Normal';
+    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Normal';
+    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Normal';
+    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Normal';
+    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encode Sans Normal';
+    src: url('assets/fonts/Encode Sans Normal/EncodeSansNormal-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
 @import
   "minima",
-  "font-awesome",
-  "profile"
+  "profile",
+  url("//fonts.googleapis.com/css?family=Open+Sans")
 ;
 
 /* Flex box for student profile page
