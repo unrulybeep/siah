@@ -1,7 +1,11 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-$fa-font-path: "fonts/font-awesome/";
+
+@fontface {
+  font-family: "Encode Sans";
+  src: url("{{ assets/fonts/Encode Sans Normal/EncodeSansNormal-400-Regular.ttf | relative_url }}");
+}
 @import
   "minima",
   "font-awesome",
