@@ -7,13 +7,12 @@
   </figure>
   <div class="text-container">
     <div>
-    <span class="title-text">{{ person.name }}</span><br/>
-    <span class="fa fa-globe" aria-hidden="true"></span>
-      <a class="info-text" href="{{ person.homepage }}">Homepage</a>
+      <span class="title-text">{{ person.name }}</span><br/>
+      <span class="info-text fa-light fa-face-disguise">{{ person.pronouns }}</span>
     </div>
     <dl>
-      <dt>Date of birth</dt>
-        <dd>{{ person.two }}</dd>
+      <dt class="fa fa-globe"></dt>
+        <dd><a class="info-text" href="{{ person.homepage }}">Homepage</a></dd>
       <dt>Hometown</dt>
         <dd>{{ person.three }}</dd>
       <dt>Loves</dt>

@@ -40,6 +40,12 @@
 ### Built With
 
 * [Jekyll](https://jekyllrb.com)
+* [Jekyll Glossary Tooltip Tag Plugin](https://github.com/erikw/jekyll-glossary_tooltip)
+* [UW Brand](https://www.washington.edu/brand)
+* [Email Protect](https://github.com/vwochnik/jekyll-email-protect)
+* [Bootstrap5 Tabs](https://github.com/mslinn/jekyll_bootstrap5_tabs)
+* [Jekyll nofollow](https://github.com/techiediaries/jekyll-autonofollow)
+* See Also: [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-plugins)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -101,13 +107,9 @@ Project Link: [https://github.com/unrulybeep/siah2018](https://github.com/unruly
 ## Acknowledgments
 
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-
-### Layout/Design
 * [UI: Profile Card](https://codepen.io/jasper/pen/bpLLZe)
 * [User Card: Horizontal Profile](https://codepen.io/Amayzin/pen/QPzqbV)
 
-### Plug-ins
-* [Jekyll Glossary Tooltip Tag Plugin](https://github.com/erikw/jekyll-glossary_tooltip)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
