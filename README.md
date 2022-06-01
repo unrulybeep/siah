@@ -17,7 +17,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/unrulybeep/siah2018">
-    <img src="docs/img/rightside up image.png" alt="Logo">
+    <img src="docs/assets/img/rightside_up_image.png" alt="Logo">
   </a>
 
 <h3 align="center">SIAH2018</h3>
@@ -28,14 +28,6 @@
     <a href="https://github.com/unrulybeep/siah2018"><strong>Explore the docs »</strong></a>
   </p>
 </div>
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-
-  { :toc }
-</details>
 
 ### Built With
 
