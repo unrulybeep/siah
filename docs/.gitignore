@@ -4,4 +4,7 @@ _site
 .jekyll-metadata
 vendor
 .DS_Store
+<<<<<<< current
 Gemfile.lock
+=======
+>>>>>>> before discard
