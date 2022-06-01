@@ -1,0 +1,11 @@
+---
+layout: page
+title: Teaching Team
+---
+{% assign people = site.data.people | where: "team", "teaching" %}
+
+<div class="flex-box">
+  {% for person in people %}
+    {% include profile.html %}
+  {% endfor %}
+</div>

@@ -4,9 +4,10 @@ title: Student Team
 ---
   <h1>Student</h1>
 [Student Profiles on URP SIAH page](https://www.washington.edu/undergradresearch/siah/archive/2018-siah/#students)
-
+  {% assign people = site.data.people | where: "team", "student" %}
+  
 <div class="flex-box">
-  {% for person in site.data.people %}
+  {% for person in people %}
     {% include profile.html %}
   {% endfor %}
 </div>
