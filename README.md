@@ -17,7 +17,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/unrulybeep/siah2018">
-    <img src="docs/assets/img/rightside_up_image.png" alt="Logo">
+    <img src="docs/assets/img/rightside_up_image.png" alt="SIAH2018 Logo">
   </a>
 
 <h3 align="center">SIAH2018</h3>
