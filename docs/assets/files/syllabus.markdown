@@ -1,17 +1,17 @@
 ---
-layout: default
+layout: page
+title: Syllabus
 ---
+<div style="text-align: center">
+**“Seattle’s Upside Down: Unearthing the City’s Deeper Histories”**
 
-<p style="text-align: center;">
-  **“Seattle’s Upside Down: Unearthing the City’s Deeper Histories”
+HUM 498 A&amp;B (12 credits)
 
-  HUM 498 A&amp;B (12 credits)
-
-  Mondays, Tuesdays, and Thursdays 9:30am - 12:30pm
-
-  June 18th-August 17th, Mary Gates Hall 171**
+Mondays, Tuesdays, and Thursdays 9:30am - 12:30pm
+**June 18th-August 17th, Mary Gates Hall 171**</div>
 
 **Teaching Team:**
+
 Scott Magelssen, <a href="mailto:{{ 'magelss@uw.edu' | encode_email }}">magelss (at) uw (dot) edu</a>
 Associate Professor, Theatre History &amp; Performance Studies
 
@@ -26,8 +26,9 @@ PhD Student, Theatre History and Theory
 
 
 **Office Hours:**
+
 Scott Magelssen: Mondays, 2:30 to 3:30pm, Mary Gates Hall*
-<p style="padding-left: 60px; text-align: right;">*</span><i>Additional office hours will be scheduled as needed.
+<p style="padding-left: 60px; text-align: right;">* _Additional office hours will be scheduled as needed._</p>
 
 Students may also meet with teaching team by appointment
 
@@ -209,4 +210,5 @@ Readings due for the week:
 **Tuesday, August 14 - Practice Presentations**
 **Thursday, August 16 - Practice Presentations**
 
-<p style="text-align: center;">**Friday, August 17 - Final Research Symposium**Locations TBD</p>
+<p style="text-align: center;">**Friday, August 17 - Final Research Symposium**
+Locations TBD</p>

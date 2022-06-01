@@ -7,7 +7,7 @@ permalink: /about/
 ### Useful Links
 [Syllabus][9b58865e]
 
-  [9b58865e]: assets/files/syllabus.markdown "SIAH2018 Syllabus"
+  [9b58865e]: /assets/files/syllabus "SIAH2018 Syllabus"
 
 June 18 – August 17, 2018
 
